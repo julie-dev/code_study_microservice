@@ -1,0 +1,6 @@
+http-server-client/client/.idea/*
+http-server-client/server/.idea/*
+./idea/*
+
+http-server-client/client/httpclient
+http-server-client/server/httpserver
