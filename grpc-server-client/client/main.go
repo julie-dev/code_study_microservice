@@ -17,9 +17,10 @@ func main() {
 	if err != nil {
 		log.Fatal("Unable to create connection to server: ", err)
 	}
+	defer conn.Close()
 
 	client := proto.NewEchoClient(conn)
-	response, _ := client.Hello(context.Background(), &proto.Request{Name:"julie"})
+	response, _ := client.Hello(context.Background(), &proto.Request{Name: "julie"})
 	if err != nil {
 		log.Fatal("Error calling service: ", err)
 		os.Exit(1)
