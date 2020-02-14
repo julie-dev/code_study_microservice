@@ -4,3 +4,11 @@ http-server-client/server/.idea/*
 
 http-server-client/client/httpclient
 http-server-client/server/httpserver
+
+grpc-server-client-with-secure-tls/.idea/*
+grpc-server-client-with-secure-tls/client/.idea/*
+grpc-server-client-with-secure-tls/server/.idea/*
+
+grpc-server-client-with-secure/.idea/*
+grpc-server-client-with-secure/client/.idea/*
+grpc-server-client-with-secure/server/.idea/*
